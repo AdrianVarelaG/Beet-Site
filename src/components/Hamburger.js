@@ -1,36 +1,26 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-class Hamburger extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      hamburgerActive: false,
-    };
-  }
-
-  handleToggle = () => {
-    this.setState(prevState => ({
-      hamburgerActive: !prevState.hamburgerActive,
-    }));
-    this.props.toggleMenu(this.state.hamburgerActive);
-  };
-
-  render() {
-    return (
-      <button
-        id="toggle-main-menu-mobile"
-        className={`hamburger hamburger--slider ${
-          this.state.hamburgerActive ? 'is-active' : ''
+const hamburger = ({ active, toggleMenu }) =>
+  (
+    <button
+      id="toggle-main-menu-mobile"
+      className={`hamburger hamburger--slider ${
+        active ? 'is-active' : ''
         }`}
-        type="button"
-        onClick={this.handleToggle}
-      >
-        <span className="hamburger-box">
-          <span className="hamburger-inner" />
-        </span>
-      </button>
-    );
-  }
+      type="button"
+      onClick={toggleMenu}
+    >
+      <span className="hamburger-box">
+        <span className="hamburger-inner" />
+      </span>
+    </button>
+  );
+
+
+hamburger.propTypes = {
+  active: PropTypes.bool.isRequired,
+  toggleMenu: PropTypes.func.isRequired
 }
 
-export default Hamburger;
+export default hamburger;

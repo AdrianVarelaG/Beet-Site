@@ -1,21 +1,19 @@
 ---
-path: '/services/mergers'
-title: 'Mergers'
+path: '/services/generacion-facturas'
+title: 'Generacion de Facturas'
 date: 2018-11-28T15:15:34+10:00
 image: '/services/default.png'
 featured: true
 draft: false
 ---
 
-Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum
-de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
-crimen habet Priamum nec.
+Genera tus facturas atraves de nuestra aplicación, lo unico que necesitas es tomar una foto del ticket
+y nosotros lo hacemos por ti.
 
-## Ne verba patulosque numen vix libet
+## Requisitos para poder deducir un gasto
 
-Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis.
-Ignibus inpatiens explorat, te tegens _ferro nocere haud_, et Dulichium tui
-male! Quo sed [fuit flexit et](#vexant-achivi) hic die solido, gloria?
+Para que cualquiera de los gastos que tienes sean deducibles uno de los requisitos indispensables
+es tener el CFDI que lo ampara.
 
 1. Cum det dixit Parcarum qui spemque est
 2. Exit ex huic

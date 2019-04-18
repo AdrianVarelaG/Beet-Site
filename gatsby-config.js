@@ -10,19 +10,23 @@ module.exports = {
     },
     menuLinks: [
       {
-        name: 'Services',
+        name: "Inicio",
+        link: "/"
+      },
+      {
+        name: 'Servicios',
         link: '/services',
       },
       {
-        name: 'Team',
+        name: 'Equipo',
         link: '/team',
       },
       {
-        name: 'Testimonials',
+        name: 'Testimonios',
         link: '/testimonials',
       },
       {
-        name: 'Contact',
+        name: 'Contacto',
         link: '/contact',
       },
     ],
